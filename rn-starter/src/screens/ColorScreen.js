@@ -1,6 +1,7 @@
 import React, { useState }from 'react';
 import { View, StyleSheet, Button, FlatList } from "react-native";
-import ColorCounter from "../components/ColorCounter";
+
+
 const ColorScreen = () => {
     const [colors, setColors] = useState([]);
     console.log(colors)
