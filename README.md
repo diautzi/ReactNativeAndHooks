@@ -1,11 +1,5 @@
 # ReactNativeAndHooks
-<<<<<<< HEAD
 **React Native v0.62.2 with Hooks, Context, and React Navigation Udemy.**
-
-### Restaurant Serach App 
-The application prompts a user with a search bar at the top of the screen and the user can search for a restaurant or an specific cuisine 
-=======
-React Native v0.62.2 with Hooks, Context, and React Navigation Course from Udemy 
 
 ### Restaurant Search App 
 
@@ -17,5 +11,5 @@ React Native v0.62.2 with Hooks, Context, and React Navigation Course from Udemy
 
 - **Once a user taps on a restaurant, the app displays a detail page with a couple of more images of the given restaurant.**
 #### Restaurant Search Single Restaurant
+
 ![Single Restaurant Seach](https://github.com/diautzi/ReactNativeAndHooks/blob/master/SingleRestaurantSearch.png)
->>>>>>> 635fddda430e3deed1db0be57064c51c7c49308b
