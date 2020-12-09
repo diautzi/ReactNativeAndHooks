@@ -2,7 +2,7 @@
 **React Native v0.62.2 with Hooks, Context, and React Navigation Udemy.**
 
 ### Restaurant Search App 
-- **This application is using Yelp API to get data for restaurant search
+- **This application is using Yelp API to get data for restaurant search**
 - **The application's home page displays three restaurant categories that scroll horizontally, in Chicago area, sorted by price, and promts a search bar at the top of the screen, where the user can search for a restaurant name or for a type of cusine.**
 
 #### Restaurant Search Home Page
