@@ -13,7 +13,8 @@ mongoose.connection.on('connected', () => {
 });
 mongoose.connection.on('error', (err) => {
     console.error('Error connecting to mongo', err)
-})
+});
+
 app.get('/', (req, res) => {
     res.send('Hi there!');
 });
