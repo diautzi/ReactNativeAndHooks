@@ -1,8 +1,12 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
+const authRoutes = require('./routes/authRoutes');
 
 const app = express();
 
+app.use(bodyParser.json());
+app.use(authRoutes);
 
 // connecting to mongo db
 const mongoUri = 'mongodb+srv://diana:utan@cluster0.uvmiv.mongodb.net/<dbname>?retryWrites=true&w=majority'
