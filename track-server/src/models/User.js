@@ -12,4 +12,4 @@ const userSchema = new mongoose.Schema({
     }
 });
 
-mongoose.Model('User', userSchema);
+mongoose.model('User', userSchema);
