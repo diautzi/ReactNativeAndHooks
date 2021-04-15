@@ -4,12 +4,17 @@ const User = mongoose.model('User');
 
 const router = express.Router();
 
-router.post('/signup', (req, res) => {
+router.post('/signup', async (req, res) => {
     const { email, password } = req.body;
-    const user = new User({ email, password });
-    user.save();
-    console.log(req.body)
-    res.send("Diana, You made a post request")
+
+    try {
+        const user = new User({ email, password });
+        await user.save();
+        console.log(req.body)
+        res.send("Diana, You made a post request")
+    } catch (err) {
+        return res.status(422).send(err.message)
+    };
 });
 
 module.exports = router;
