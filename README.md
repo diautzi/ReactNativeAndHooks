@@ -13,3 +13,8 @@
 #### Restaurant Search Single Restaurant
 
 ![Single Restaurant Seach](https://github.com/diautzi/ReactNativeAndHooks/blob/master/food/food/SingleRestaurantSearch.png)
+
+### Second Application: Create Blog App
+- **Inside our app we have a couple of different screens, each of the screens have one very particular job: INDEX < SHOW < CREATE < EDIT
+Complete CRUD aplication with JSON server REST Conventions and NGROK setup.
+
