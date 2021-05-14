@@ -15,6 +15,7 @@ app.use(trackRoutes);
 
 // connecting to mongo db
 const mongoUri = 'mongodb+srv://diana:utan@cluster0.uvmiv.mongodb.net/<dbname>?retryWrites=true&w=majority'
+
 mongoose.connect(mongoUri, {
     useNewUrlParser: true,
     useCreateIndex: true
